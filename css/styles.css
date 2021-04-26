@@ -1,9 +1,9 @@
 body{
   background-color: #1a1a2e;
-  color: #e94560;
+  color: #fff;
   font-family: 'Montserrat', sans-serif;
   font-weight: 600;
-  text-align: left;
+  text-align: center;
 }
 h1{
   color: #f0ece2;
@@ -22,24 +22,26 @@ hr{
   border-style: dotted none none;
   border-top-width: 7px;
   width: 10%;
-  margin: 70px auto;
+  margin: 4rem auto;
 }
 p{
   line-height: 2;
+  padding: 2% 15%;
 }
 /* Common sections */
-
-.centered-section{
-  /*background-color: #903749;#e84545;*/
-  text-align: center;
+.seccion-sincolor{
+  background-color: #dddddd;
+  color: #1a1a2e;
 }
-
+.seccion-sincolor h2{
+  color: #1a1a2e;
+}
+.padding515{
+  padding: 5% 15%;
+}
 /* Nav Bar */
 .navbar{
   padding: 2% 7%;
-}
-.main-title{
-  z-index: 20;
 }
 /* Presentacion */
 #presentacion{
@@ -52,13 +54,44 @@ p{
 .main-header-2{
   font-size: 2rem;
 }
-/* About me */
-.intro{
-  width: 30%;
-  margin: auto;
+.title-koi{
+  height: 50%;
+  width: 50%;
+  position: relative;
+  bottom: 250px;
+  right: 270px;
+  z-index: -1;
 }
-.middle-container{
-  background-color: #903749;
+/* Acerca de mi */
+
+
+/* Explicacion Koi */
+.koi-exp{
+  width: 25rem;
+  height: 25rem;
+  position: absolute;
+  right: 4rem;
+  z-index: -2;
+}
+/* Seccion mi conocimiento*/
+#conocimiento img{
+  width: 10rem;
+  height: 10rem;
+}
+.skill-row{
+  margin: 6rem 0;
+  text-align: left;
+}
+.skill-text{
+  padding: 0;
+}
+.browser-icon{
+  float: left;
+  margin-right: 30px;
+}
+.processor-icon{
+  float: right;
+  margin-left: 30px;
 }
 .bottom-container{
   background-color: #53354a;
@@ -68,25 +101,6 @@ p{
   width: 30%;
   margin: 40px auto 40px;
 }
-.title-koi{
-  height: 50%;
-  width: 50%;
-  position: relative;
-  bottom: 250px;
-  right: 100px;
-  z-index: -1;
-}
-.bottom-cloud{
-  height: 40%;
-  weight: 40%;
-  position: absolute;
-  bottom: 300px;
-  left: 300px;
-}
-.top-cloud{
-  height: 40%;
-  weight: 40%;
-}
 .footer-link{
   color: #FFFFFF;
   text-decoration: none;
@@ -95,23 +109,7 @@ p{
 .footer-link:hover{
   color: #2b2e4a;
 }
-.skill-row{
-  margin: 100px auto 100px auto;
-  width: 50%;
-}
-.browser-icon{
-  width: 25%;
-  float: left;
-  margin-right: 30px;
-}
-.processor-icon{
-  width: 25%;
-  float: right;
-  margin-left: 30px;
-}
-#contacto {
-  text-align: center;
-}
+
 .contact-btn {
    -webkit-border-radius: 20px;
    -moz-border-radius: 20px;
