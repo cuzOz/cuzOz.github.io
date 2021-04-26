@@ -1,16 +1,20 @@
 body{
   background-color: #1a1a2e;
+  color: #e94560;
   font-family: 'Montserrat', sans-serif;
+  font-weight: 600;
   text-align: left;
 }
 h1{
   color: #f0ece2;
   font-size: 5.625rem;
   font-family: 'Blinker', sans-serif;
+  text-align: center;
 }
 h2{
   color: #f0ece2;
-  font-size: 2rem;
+  font-size: 3.5rem;
+  text-align: center;
 }
 hr{
   background-color: transparent;
@@ -23,24 +27,30 @@ hr{
 p{
   line-height: 2;
 }
-/* Containers */
+/* Common sections */
 
-.container{
+.centered-section{
   /*background-color: #903749;#e84545;*/
-  padding: 5% 15%;
-  margin-top: 2%;
+  text-align: center;
 }
-.container-fluid{
+
+/* Nav Bar */
+.navbar{
   padding: 2% 7%;
 }
-/* Nav Bar */
 .main-title{
   z-index: 20;
 }
 /* Presentacion */
 #presentacion{
-  text-align: center;
-  margin-bottom: -10rem;
+  margin-bottom: -12rem;
+}
+.titular{
+  padding: 5% 15%;
+  margin-top: 2%;
+}
+.main-header-2{
+  font-size: 2rem;
 }
 /* About me */
 .intro{
@@ -62,8 +72,8 @@ p{
   height: 50%;
   width: 50%;
   position: relative;
-  bottom: 230px;
-  right: 230px;
+  bottom: 250px;
+  right: 100px;
   z-index: -1;
 }
 .bottom-cloud{
@@ -88,7 +98,6 @@ p{
 .skill-row{
   margin: 100px auto 100px auto;
   width: 50%;
-  text-align: left;
 }
 .browser-icon{
   width: 25%;
@@ -100,7 +109,9 @@ p{
   float: right;
   margin-left: 30px;
 }
-
+#contacto {
+  text-align: center;
+}
 .contact-btn {
    -webkit-border-radius: 20px;
    -moz-border-radius: 20px;
