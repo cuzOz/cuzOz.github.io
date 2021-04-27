@@ -16,14 +16,6 @@ h2{
   font-size: 3.5rem;
   text-align: center;
 }
-hr{
-  background-color: transparent;
-  border-color: #53354A;
-  border-style: dotted none none;
-  border-top-width: 7px;
-  width: 10%;
-  margin: 4rem auto;
-}
 p{
   line-height: 2;
   padding: 2% 15%;
@@ -45,7 +37,7 @@ p{
 }
 /* Presentacion */
 #presentacion{
-  padding-bottom: 10%;
+  padding-bottom: 13%;
 }
 .titular{
   padding: 5% 15%;
@@ -55,10 +47,11 @@ p{
   font-size: 2rem;
 }
 .title-koi{
-  height: 25rem;
-  width: 25rem;
+  height: 23rem;
+  width: 23rem;
   position: absolute;
-  left: 12rem;
+  left: 13rem;
+  top: 6rem;
   z-index: -1;
 }
 /* Acerca de mi */
@@ -77,8 +70,11 @@ p{
   width: 10rem;
   height: 10rem;
 }
+#conocimiento div{
+  margin: 0 5%;
+}
 .skill-row{
-  margin: 6rem 0;
+  padding: 2rem 0;
   text-align: left;
 }
 .skill-text{
@@ -92,35 +88,37 @@ p{
   float: right;
   margin-left: 30px;
 }
-.bottom-container{
-  background-color: #53354a;
-  padding: 40px 0 20px;
+/* Contacto */
+#contacto{
+  margin-bottom: 1rem;
 }
+.contact-dragon{
+  height: 40rem;
+  width: 25rem;
+  position: absolute;
+  left: 0.2rem;
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  z-index: -3;
+} 
 .contact-message{
-  width: 30%;
-  margin: 40px auto 40px;
+  color: grey;
+  margin: 0 5rem;
 }
-.footer-link{
-  color: #FFFFFF;
-  text-decoration: none;
-  margin: auto 10px;
+.contact-btn-container{
+  padding-top: 3rem;
 }
-.footer-link:hover{
-  color: #2b2e4a;
-}
-
 .contact-btn {
    -webkit-border-radius: 20px;
    -moz-border-radius: 20px;
    border-radius: 20px;
-   height: 35px;
+   height: 4rem;
    line-height: 35px;
    color: #FFFFFF;
-   font-family: 'Montserrat', sans-serif;
-   width: 180px;
+   width: 14rem;
    font-size: 30px;
    font-weight: normal;
-   padding: 20px;
+   padding: 11px;
    background-color: #2B2E4A;
    -webkit-box-shadow: 1px 1px 20px 0 #3C3D4A;
    -moz-box-shadow: 1px 1px 20px 0 #3C3D4A;
@@ -131,9 +129,8 @@ p{
    display: inline-block;
    cursor: pointer;
    text-align: center;
-   margin-bottom: 20px;
+   margin-bottom: 0.5rem;
 }
-
 .contact-btn:hover {
    border: solid #337FED 1px;
    background: #1E62D0;
@@ -146,4 +143,13 @@ p{
    -moz-border-radius: 20px;
    border-radius: 20px;
    text-decoration: none;
+}
+/* Footer */
+.footer-link{
+  color: #FFFFFF;
+  text-decoration: none;
+  margin: 0 1rem;
+}
+.footer-link:hover{
+  color: #2b2e4a;
 }
