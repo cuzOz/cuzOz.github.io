@@ -100,7 +100,7 @@ p{
   -webkit-transform: scaleX(-1);
   transform: scaleX(-1);
   z-index: -3;
-} 
+}
 .contact-message{
   color: grey;
   margin: 0 5rem;
@@ -152,4 +152,11 @@ p{
 }
 .footer-link:hover{
   color: #2b2e4a;
+}
+@media (max-width: 600px){
+  .title-koi{
+    position: absolute;
+    top: 6rem;
+    left: 2rem;
+  }
 }
