@@ -153,3 +153,10 @@ p{
 .footer-link:hover{
   color: #2b2e4a;
 }
+@media (max-width: 600px){
+  .title-koi{
+    position: absolute;
+    top: 6rem;
+    left: 2rem;
+  }
+}
