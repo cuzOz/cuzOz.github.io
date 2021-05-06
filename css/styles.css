@@ -88,6 +88,22 @@ p{
   float: right;
   margin-left: 30px;
 }
+
+/* Proyectos  */
+.proyecto-img{
+  width: 90%;
+  margin: 20px;
+}
+.carousel-title{
+  font-size: 3rem;
+}
+.carousel-btn:hover{
+  background-color: #1a1a2e;
+}
+.git-link{
+  text-decoration: none;
+  color: #641c34;
+}
 /* Contacto */
 #contacto{
   margin-bottom: 1rem;
@@ -153,7 +169,7 @@ p{
 .footer-link:hover{
   color: #2b2e4a;
 }
-@media (max-width: 600px){
+@media (max-width: 1080px){
   .title-koi{
     position: absolute;
     top: 6rem;
